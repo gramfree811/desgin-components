@@ -1,0 +1,40 @@
+name: milan
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  shared_preferences:
+  fluro: ^1.7.8
+  carousel_slider: ^2.3.1
+  font_awesome_flutter: ^8.11.0
+  flutter_staggered_grid_view: ^0.3.2
+  http:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  fonts:
+    - family: DancingScript
+      fonts:
+        - asset: fonts/DancingScript-Regular.ttf
+#          style: italic
